@@ -1,0 +1,27 @@
+﻿<Page x:Class="WindowsVhod.Str.kk2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WindowsVhod.Str"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="850"
+      Title="kk2">
+
+    <Grid Background="White" HorizontalAlignment="Right" Width="850">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition/>
+            <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+
+        <DataGrid Grid.Row="1">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" Width="*"/>
+                <DataGridTextColumn Header="Product" Width="*"/>
+                <DataGridTextColumn Header="Number" Width="*"/>
+            </DataGrid.Columns>
+
+        </DataGrid>
+    </Grid>
+</Page>
